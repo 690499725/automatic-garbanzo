@@ -1,0 +1,431 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.tll {
+    width: 100%;
+    height: 84px;
+    border: 0px solid red;
+}
+
+.tll img {
+    margin-top: 18px;
+} 
+
+.banner {
+    width: 1200px;
+    height: 84px;
+    margin: 0 auto;
+}
+
+.tll .tll_sh {
+    width: 940px;
+    height: 70px;
+    border: 0px solid red;
+    float: right;
+    margin-top: 10px;
+    background-image: url(../img/10049.png);
+    background-repeat: no-repeat;
+    background-position:left;
+    /* 左中居中 */
+    /* background-color: red; */
+    background-size: 1130px 40px;
+    line-height: 70px;
+}
+.tll .tll_sh_inp {
+    width: 350px;
+    height: 30px;
+    margin-left: 100px;
+    border: 1px solid #dedede;
+    outline: none;
+}
+
+
+.tll .tll_sh_inp:focus {
+    border-color:#3b99fc;
+}
+
+.tll .tll_sh_img {
+    margin-left: 0;
+    width: 30px;
+    height: 26px;
+    position: relative;
+    top: 10px;
+    left:-6px;
+}
+
+.tll_sh_list {
+    width: 427px;
+    height: 70px;
+    border: 0px solid green;
+    float: right;
+}
+
+.tll_sh_list li {
+    list-style: none;
+    float: left;
+    margin-left: 10px;
+}
+
+.tll_sh_list a {
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.tll_sh_a {
+    color: #3b99fc;
+}
+
+.tll_sh_a2 {
+    color: #3b99fc;
+
+}
+
+/* .tll_sh_list span {
+    font-size: 12px;
+    color: #ACDEF9;
+}
+
+.tll_sh_a2 .ui1 {
+    color: #0077FF;
+}
+
+.tll_sh_a2 .ui2 {
+    color: #0077FF;
+    margin-left: 10px;
+} */
+/* 结束 */
+
+
+/* 顶部导航 */
+
+.tl2 {
+    width: 100%;
+    height: 40px;
+    background-color: #3b99fc;
+}
+
+.tl2_cen {
+    width: 1190px;
+    height: 40px;
+    /* border: 1px solid red; */
+    margin:0 auto;
+    line-height: 40px;
+    /* text-align: center; */
+}
+/* 版心居中 */
+
+.tl2_cen li {
+    
+    list-style: none;
+    float: left;
+    width: 148px;
+    height: 40px;
+    /* border: 1px solid green; */
+    text-align: center;
+}
+
+.tl2_cen a {
+    display: block;
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+/* .tl2_cen_first {
+    background-color: #2676e3;
+} */
+
+.tl2_cen li:hover {
+    background-color: #2676e3;
+}
+
+
+.crumbs {
+    width: 980px;
+    height: 32px;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+    color: #000;
+    font: 12px Tahoma,宋体;
+    line-height: 32px;
+}
+
+
+/* 账户信息 */
+.tl3 {
+    width: 978px;
+    height: 574px;
+    border: 1px solid #3b99fc;
+    border-radius: 1%;
+}
+
+.tl3_n1 {
+    width: 978px;
+    height: 32px;
+    color: #e5f8ff;
+    font: 14px Tahoma,宋体;
+    line-height: 32px;
+    padding-left: 20px;
+    background: #2487C9;
+    border-bottom: 1px solid #66C8E8;
+}
+
+.tl3_n2 {
+    width: 958px;
+    height: 412px;
+    padding: 40px 0px 0px 0px;
+    margin: 0 auto;
+    font: 14px Tahoma,宋体;
+    /* border: 1px solid red; */
+}
+
+/* 信息开始 */
+
+.tl3_n2 li {
+    list-style: none;
+    width: 958px;
+    height: 30px;
+    margin-bottom: 5px;
+    /* border: 1px solid red; */
+}
+
+.tl3_n2 .io {
+    width: 958px;
+    height: 0px;
+    margin: 15px 0;
+    border: 1px dotted #DEDEDE;
+}
+
+.tl3_n2 .l1 {
+    width: 380px;
+    height: 30px;
+    padding-right: 5px;
+    /* border: 1px solid blue; */
+    float: left;
+    font: 12px Tahoma,宋体;
+    line-height: 30px;
+}
+
+.tl3_n2 .l1 span {
+    color: #FF0000;
+    font-size: 16px;
+    margin-right:2px ;
+    vertical-align: middle;
+} 
+
+.tl3_n2 .l1 p {
+    float: right;
+}
+
+.tl3_n2 .l2 {
+    width: 202px;
+    height: 30px;
+    /* border: 1px solid green; */
+    float: left;
+    
+}
+
+.tl3_n2 .l2 input {
+    width: 202px;
+    height: 30px;
+    background: #fff;
+    padding: 5px 0 5px 5px;
+    line-height: 30px;
+    color: #999;
+    font-size: 12px;
+    border: 1px solid #cfcdc7;
+}
+
+
+.tl3_n2 .l2 input:focus {
+    outline: none;
+    border: 2px dotted rgb(51, 51, 51);
+    
+}
+
+
+.tl3_n2 .l3 {
+    width: 320px;
+    height: 30px;
+    color: #FF7F00;
+    margin-left: 8px;
+    /* border: 1px solid red; */
+    float: left;
+}
+
+
+
+
+.tl3_n3 {
+    width: 958px;
+    height: 30px;
+    margin: 50px auto;
+    /* border: 1px solid red; */
+    font: 14px Tahoma,宋体;
+    line-height: 30px;
+}
+
+.tl3_n3 a {
+    display: block;
+    text-decoration: none;
+    width: 122px;
+    height: 30px;
+    color: #FFF;
+    background: #FF8000;
+    text-align: center;
+    line-height: 30px;
+    margin: 0 auto;
+}
+
+
+
+/* 友情链接 */
+.tl10 {
+    margin-top: 60px;
+    height: 195px;
+    width: 100%;
+    background-color: #f8f8f8;
+}
+
+
+.tl10 .tl10_y {
+    padding: 20px 0;
+    padding-left: 14px;
+}
+
+.tl10_y li {
+    list-style: none;
+    float: left;
+}
+
+.tl10 .tl10-yn1 {
+    width: 420px;
+    height: 155px;
+    /* border: 1px solid red; */
+}
+
+
+.tl10 .tl10-yn2 {
+    width: 705px;
+    height: 155px;
+    /* border: 1px solid red; */
+    float: right;
+    margin-right: -95px;
+}
+
+.tl10_m1 {
+    width: 420px;
+    height: 54px;
+    /* border: 1px solid red; */
+}
+
+.tl10_m1 h2 {
+    font-size: 14px;
+    color: #333;
+    line-height: 54px;
+}
+
+.tl10_m2 li {
+    width: 200px;
+    height: 34px;
+    /* border: 1px solid red; */
+    float: left;
+    margin: 10px 9px 0 0;
+}
+
+.tl10_m2 img {
+    width: 200px;
+    height: 34px;
+    
+}
+
+.tl10-yn2 li {
+    width: 140px;
+    height: 155px;
+    /* border: 1px solid red; */
+    float: left;
+
+}
+
+.tl10-yn2 li h2 {
+    width: 140px;
+    height: 54px;
+    /* border: 1px solid red; */
+    font-size: 14px;
+    color: #333;
+    line-height: 54px;
+    text-align: center;
+}
+
+.tl10-yn2 li img {
+    display: block;
+    width: 80px;
+    height: 80px;
+    
+    margin: 0 auto;
+}
+
+.tl10-yn2 .tl10_p {
+    margin-top: 54px;
+    margin-left: -6px;
+    width: 190px;
+    height: 80px;
+    border: 1px solid #DEDEDE;
+    float: left;
+    background-image: url(../img/10063.png);
+    padding: 12px 10px;
+}
+
+.tl10-yn2 .tl10_p p {
+    font-size: 14px;
+    color: #333;
+    line-height: 14px;
+}
+
+.tl11 {
+    width: 1857px;
+    height: 80px;
+    background: #666;
+    padding: 10px 0;
+    position: relative;
+}
+
+.tl11 p {
+    width: 1857px;
+    height: 30px;
+    text-align: center;
+}
+
+.tl11 p span {
+    color: #c1c1c1;
+    font-size: 14px;
+    /* height: 30px; */
+   
+    line-height: 30px;
+    
+}
+
+.tl11 p span .mr {
+    margin: 0 10px 0 0;
+}
+
+.tl11 .mr a {
+    text-decoration: none;
+}
+
+.tl11 div {
+    position: absolute;
+    top: 17px;
+    left: 50%;
+    margin-left: 465px;
+}
+
+.tl11 div img {
+    display: block;
+    width: 130px;
+    height: 46px;
+}
+
